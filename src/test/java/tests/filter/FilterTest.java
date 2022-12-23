@@ -9,11 +9,17 @@ public class FilterTest extends BaseTest {
 
          basePage.open("https://habr.com");
 
+
+
          habrHomePage
                 .changeFilter()
-                .clickToApplyFilter();
-         habrListingPage
-                .checkCountArticles();
+                .clickToApplyFilter()
+                .checkCountArticles()
+                // .openArticle(5)
+                 .openArticleNewTab(2);
+
+         //switchWindow();
+
 
          }
 }
