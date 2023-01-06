@@ -8,10 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="096a18d5-24ab-459c-8226-11225da3fc9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/terminal/TestSOUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/terminalTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/basicTests.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +53,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vladimir\IdeaProjects\AutoTestTutorial\src\test\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vladimir\IdeaProjects\AutoTestTutorial\src\test\resources" />
       <recent name="C:\Users\Vladimir\IdeaProjects\AutoTestTutorial\src\main\resources" />
@@ -156,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671820742273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Again - refactoring, added quit conditions and better new tab test.">
+      <created>1673000746453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673000746453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +186,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First version of project" />
     <MESSAGE value="Some refactoring, added work with new tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some refactoring, added work with new tabs" />
+    <MESSAGE value="Again - refactoring, added quit conditions and better new tab test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Again - refactoring, added quit conditions and better new tab test." />
   </component>
 </project>

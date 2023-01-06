@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="All Test Suite">
+<suite name="TestSOUT">
     <test verbose="2" preserve-order="true" name="Article Filters">
         <classes>
-            <class name="tests.filter.FilterTest">
+            <class name="tests.terminal.TestSOUT">
             </class>
         </classes>
     </test>
