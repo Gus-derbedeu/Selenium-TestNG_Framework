@@ -58,7 +58,9 @@ public class HabrHomePage extends BasePage {
     public HabrHomePage openArticle (int articleNumber){
         waitElementIsVisible(driver.findElement(article));
         List<WebElement> articleList = driver.findElements(article);
-        articleList.get(articleNumber-1).findElement(By.className("tm-article-snippet__title-link")).click();
+        WebElement link = articleList.get(articleNumber-1).findElement(By.className("tm-article-snippet__title-link"));
+        link.click();
+
         return this;
     }
     public HabrHomePage openArticleNewTab (int articleNumber){

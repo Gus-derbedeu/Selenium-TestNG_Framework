@@ -15,10 +15,8 @@ public class FilterTest extends BaseTest {
                 .changeFilter()
                 .clickToApplyFilter()
                 .checkCountArticles()
-                // .openArticle(5)
-                 .openArticleNewTab(2);
+                .openArticleNewTab(3);
 
-         //switchWindow();
 
 
          }

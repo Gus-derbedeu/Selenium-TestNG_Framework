@@ -9,11 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="096a18d5-24ab-459c-8226-11225da3fc9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/listing/HabrListingPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" afterDir="false" />
     </list>
@@ -69,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.FilterTest.checkIsFilterApplying">
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.goose.MainTest" />
       <module name="AutoTestTutorial" />
@@ -130,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.FilterTest.checkIsFilterApplying" />
+        <item itemvalue="TestNG.C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.FilterTest" />
         <item itemvalue="Application.MainTest" />
       </list>
@@ -153,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671641762310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some refactoring, added work with new tabs">
+      <created>1671820742273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671820742273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First version of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version of project" />
+    <MESSAGE value="Some refactoring, added work with new tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some refactoring, added work with new tabs" />
   </component>
 </project>
