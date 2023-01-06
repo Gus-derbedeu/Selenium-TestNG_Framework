@@ -19,9 +19,10 @@ public class BaseTest {
     protected BasePage basePage = new BasePage(driver);
     protected HabrHomePage habrHomePage = new HabrHomePage(driver);
 
-@AfterSuite(alwaysRun = true)
-public void closeBrowser (){
-    driver.quit();
-}
+//@AfterSuite(alwaysRun = true)
+//public void closeBrowser () throws InterruptedException {
+//    Thread.sleep(2500); //чтобы увидеть результат визуально :)
+//    driver.quit();
+//}
 
 }

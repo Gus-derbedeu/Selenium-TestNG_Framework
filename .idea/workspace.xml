@@ -8,11 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="096a18d5-24ab-459c-8226-11225da3fc9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/terminal/TestSOUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/terminalTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/basicTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +71,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FilterTest.checkIsFilterApplying">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.goose.MainTest" />
+  <component name="RunManager" selected="TestNG.C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/basicTests.xml">
+    <configuration name="C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/basicTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTestTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.goose.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/basicTests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,12 +127,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSOUT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.terminal" />
+      <option name="MAIN_CLASS_NAME" value="tests.terminal.TestSOUT" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/basicTests.xml" />
+        <item itemvalue="TestNG.FilterTest" />
+        <item itemvalue="TestNG.TestSOUT" />
         <item itemvalue="TestNG.FilterTest.checkIsFilterApplying" />
         <item itemvalue="TestNG.C:/Users/Vladimir/IdeaProjects/AutoTestTutorial/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.FilterTest" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673000746453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Additional testNG implementations, working with 2+ test suits">
+      <created>1673003919676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673003919676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +210,7 @@
     <MESSAGE value="First version of project" />
     <MESSAGE value="Some refactoring, added work with new tabs" />
     <MESSAGE value="Again - refactoring, added quit conditions and better new tab test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Again - refactoring, added quit conditions and better new tab test." />
+    <MESSAGE value="Additional testNG implementations, working with 2+ test suits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional testNG implementations, working with 2+ test suits" />
   </component>
 </project>
