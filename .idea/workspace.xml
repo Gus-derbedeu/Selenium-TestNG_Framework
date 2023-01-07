@@ -7,15 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096a18d5-24ab-459c-8226-11225da3fc9b" name="Changes" comment="Functional for taking screenshot on test failure - corrected :)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/base/CustomListener.java" afterDir="false" />
+    <list default="true" id="096a18d5-24ab-459c-8226-11225da3fc9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/screenshots/checkIsFilterApplying_Sat_Jan_07_16_30_51_EET_2023.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/CustomListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/basicTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/basicTests.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673096780732</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Functional for taking screenshot on test failure - corrected :) + Listeners">
+      <created>1673101082161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673101082161</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +239,7 @@
     <MESSAGE value="Simplifying the code, using switch for easier xpath search" />
     <MESSAGE value="@Aftersuit with quit" />
     <MESSAGE value="Functional for taking screenshot on test failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional for taking screenshot on test failure" />
+    <MESSAGE value="Functional for taking screenshot on test failure - corrected :) + Listeners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional for taking screenshot on test failure - corrected :) + Listeners" />
   </component>
 </project>

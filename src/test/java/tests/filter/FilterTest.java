@@ -1,8 +1,11 @@
 package tests.filter;
 
+import org.openqa.selenium.NoSuchElementException;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.base.BaseTest;
 
+import java.io.IOException;
 
 
 public class FilterTest extends BaseTest {
@@ -11,6 +14,8 @@ public class FilterTest extends BaseTest {
          public void checkIsFilterApplying(){
 
          basePage.open("https://habr.com");
+         Assert.assertTrue(driver.getPageSource().contains("Хабр"),"Страница не прогрузилась!" );
+
 
          habrHomePage
                 .changeFilter("best", "year") // show: new/best, period: all,zero,ten,twentyfive, fifty, hundred /  day,week,month,year,alltime
