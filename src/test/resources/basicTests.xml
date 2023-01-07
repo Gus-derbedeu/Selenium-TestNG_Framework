@@ -3,6 +3,9 @@
 
 
 <suite name="Basic Tests Suite">
+    <listeners>
+        <listener class-name="tests.base.CustomListener"></listener>
+    </listeners>
     <test verbose="2" preserve-order="true" name="Article Filters">
         <classes>
             <class name="tests.filter.FilterTest">

@@ -11,7 +11,7 @@ import java.time.Duration;
 import static common.Config.EXPLICIT_WAIT;
 
 public class BasePage {
-    protected WebDriver driver;
+    public WebDriver driver;
 
     public BasePage (WebDriver driver){
         this.driver = driver;
