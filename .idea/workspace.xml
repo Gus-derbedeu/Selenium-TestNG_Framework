@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="096a18d5-24ab-459c-8226-11225da3fc9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/base/CustomListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/habrhome/HabrHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/filter/FilterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673003919676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Simplifying the code, using switch for easier xpath search">
+      <created>1673036110673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673036110673</updated>
+    </task>
+    <task id="LOCAL-00006" summary="@Aftersuit with quit">
+      <created>1673036260192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673036260192</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +223,8 @@
     <MESSAGE value="Some refactoring, added work with new tabs" />
     <MESSAGE value="Again - refactoring, added quit conditions and better new tab test." />
     <MESSAGE value="Additional testNG implementations, working with 2+ test suits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional testNG implementations, working with 2+ test suits" />
+    <MESSAGE value="Simplifying the code, using switch for easier xpath search" />
+    <MESSAGE value="@Aftersuit with quit" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Aftersuit with quit" />
   </component>
 </project>

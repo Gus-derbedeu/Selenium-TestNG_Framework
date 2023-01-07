@@ -4,7 +4,8 @@ import org.testng.annotations.Test;
 import tests.base.BaseTest;
 
 public class FilterTest extends BaseTest {
-         @Test (timeOut = 5000) //(invocationCount = 2)  - количество раз сколько нужно выполнить тест
+         @Test (timeOut = 5000, successPercentage = 100) //(invocationCount = 2)  - количество раз сколько нужно выполнить тест
+         // (successPercentage = 100) - процент успеха теста чтобы он не упал
          public void checkIsFilterApplying(){
 
          basePage.open("https://habr.com");
